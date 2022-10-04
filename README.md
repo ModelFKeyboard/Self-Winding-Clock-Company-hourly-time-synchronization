@@ -1,6 +1,10 @@
 # Self Winding Clock Company hourly time synchronization
 Self Winding Clock Company hourly time synchronization using ESP8266 ESP-12E and a relay
 
+The Self Winding Clock Company clocks received an hourly synchronization signal from the telegraph lines.  
+
+This project will enable the clock to synchronize the time over Wi-Fi every hour from a server on the internet.
+
 # Hardware parts (approximate pricing incl. shipping cost):
 $6 2 D batteries and D battery holder - can last 18 months.  Connect to the 2 screw terminals on the left side of the clock movement - powers the winding every hour. 
 
