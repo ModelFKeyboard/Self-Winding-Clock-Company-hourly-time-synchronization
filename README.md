@@ -5,7 +5,7 @@ The Self Winding Clock Company clocks received an hourly synchronization signal 
 
 This project will enable the clock to synchronize the time over Wi-Fi every hour from a server on the internet.
 
-# Hardware parts (approximate pricing incl. shipping cost):
+# Hardware parts (approximate pricing):
 $6 2 D batteries and D battery holder - can last 18 months.  Connect to the 2 screw terminals on the left side of the clock movement - powers the winding every hour. 
 
 $6 USB-A phone charger with USB-A to micro-USB wire for easy ESP8266 programming
@@ -18,7 +18,7 @@ $6 ESP8266 NodeMCU CP2102 ESP-12E Development Board https://www.amazon.com/dp/B0
 
 $3 3V Relay Power Switch Board, Icstation 1 Channel Optocoupler Module Opto Isolation High Level Trigger for IOT ESP8266 Development Board https://www.amazon.com/dp/B01M0E6SQM
 
-Total cost with shipping: ~$30
+Total cost: ~$30
 
 # Hardware steps:
 1. Wire 3v3 on ESP8266 board to VCC on the relay, GND on ESP8266 to GND on relay, and D1 on ESP8266 to IN on relay
