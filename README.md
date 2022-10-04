@@ -19,7 +19,7 @@ Total cost with shipping: ~$30
 # Hardware steps:
 1. Wire 3v3 on ESP8266 board to VCC on the relay, GND on ESP8266 to GND on relay, and D1 on ESP8266 to IN on relay
 
-2. Wire 3.3v on buck converter to one of the 2 solenoid connectors on the Self Winding Clock, GND on buck converter to COM on relay, and NO on relay to the other solenoid connector on the Self Winding Clock.  In my testing, the ESP8266 ESP-12E could not pass through the ~250ma of power needed to power the solenoid so that is why the power needs to be wired as noted above.
+2. Wire GND on buck converter to one of the 2 solenoid connectors on the Self Winding Clock, 3.3v on buck converter to COM on relay, and NO on relay to the other solenoid connector on the Self Winding Clock.  In my testing, the ESP8266 ESP-12E could not pass through the ~250ma of power needed to power the solenoid so that is why the power needs to be wired as noted above.
 
 3. For programming:  connect computer-->micro USB cable-->ESP8266 board-->3.3v relay-->solenoid on the clock
 
