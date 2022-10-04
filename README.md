@@ -53,4 +53,4 @@ Tools-->Port--> (whatever it is)
 
 8. Load the code shown on the other page into the Arduino IDE program.  Update the wifi details with your own details, and update the minute that you would like the synchronization lever to operate.  In my Self Winding Clock, the synchronization lever brings the clock to the 59 minute mark, not the exact top of the hour 00 minute mark, so the code says to operate the sync lever at the 59 minute mark of each hour.  You can also update the time offset from GMT in seconds (-14400 in my case).
 
-9. After loading the project's firmware, click serial monitor window in the arduino IDE to confirm the time is accurate.  It will display the updated time with one new line per second.
+9. After flashing the project's firmware, click serial monitor window in the arduino IDE to confirm the time is accurate.  It will display the updated time with one new line per second.
